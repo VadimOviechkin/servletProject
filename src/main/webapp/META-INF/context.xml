@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/conferences">
+    <!-- Specify a JDBC datasource -->
+    <Resource name="jdbc/conferencedb"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="root"
+              password="4VnAm5j55E"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/conferencedb?autoReconnect=true&amp;serverTimezone=UTC"
+              validationQuery="select 1"
+              maxTotal="10"
+              maxIdle="4"/>
+</Context>
